@@ -1,0 +1,20 @@
+.mainblockconf{
+    max-width: 500px;
+    margin: auto;
+}
+
+.mainblockconf h1{
+    color: green;
+}
+
+.ruimtetitel{
+    width: 1000px;
+    height: 60px;
+}
+
+.fotoruimtes {
+    width:450px;
+    height:300px;
+    align-content: right;
+}
+

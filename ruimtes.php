@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +18,7 @@
 
     </ul>
 </div>
+
 <!--Dit zijn de vergader kamers. -->
 <div class="mainblockconf"> <!-- main block voor de ruimtes-->
     <div class="ruimtetitel"><h1>Vergaderruimte 1</h1></div>
@@ -53,5 +55,7 @@
         </div>
     </div>
 </div>
+</div>
+
 </body>
 </html>

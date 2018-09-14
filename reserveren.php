@@ -28,7 +28,10 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     $gebruik = $_POST ['gebruik'];
     $eindTijd = date("Y-m-d H:i:s", strtotime($eindTijd2));
     $startTijd = date("Y-m-d H:i:s", strtotime($startTijd2));
-
+    $lokaalid1 =mysqli_real_escape_string($lokaalid);
+    $startTijd3 =mysqli_real_escape_string($startTijd);
+    $eindTijd3 =mysqli_real_escape_string($eindTijd);
+    $gebruik2 =mysqli_real_escape_string($gebruik2);
 
     $sql = "INSERT INTO Agenda(lokaalid, startTijd, eindTijd, gebruik) VALUES('$lokaalid', '$startTijd', '$eindTijd', '$gebruik')";
     if ($conn->query($sql) === TRUE) {
