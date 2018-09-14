@@ -1,0 +1,45 @@
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10px;
+}
+
+/*.main-1 {*/
+/*width: 50%;*/
+/*}*/
+.table {
+    text-align: left;
+    width: 100%;
+}
+
+.table-first {
+    /*text-align: center;*/
+}
+
+.table-head {
+    width: 33%;
+}
+
+.beschikbaar {
+    background: greenyellow;
+}
+
+.bezet {
+    background: red;
+}
+
+.onderhoud {
+    background: yellow;
+}
+
+.main-2-2 {
+    margin-top: 40px;
+}
+
+.reserveren {
+    /*background: aliceblue;*/
+}
+
+.submit {
+    float: left;
+}
